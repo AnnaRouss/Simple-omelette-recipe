@@ -1,0 +1,141 @@
+    body {
+      font-size: 18px; /* Example style */
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    min-width: 375px;
+    max-width: 1440px;
+    padding-bottom: 90px;
+    }  
+#container {
+    min-width: 375px;
+    max-width: 1440px;
+    height: 1450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 80px;
+    margin: 60px;
+    align-content: center;
+}
+
+ .img {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    min-width: 375px;
+    max-width: 1440px;
+    border-radius: 20px;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: Young Serif, sans-serif;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+p {
+    padding-left: 80px;
+    padding-right: 60px;
+    font-family: Outfit, sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+.preparation {
+    
+    background-color: hsl(330, 100%, 98%);
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    overflow: clip;
+    font-family: Outfit, sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.preparation h2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: hsl(332, 51%, 32%);
+    font-size: 14px;
+}
+
+.preparation li {
+    
+    font-size: 12px;
+    list-style-position: inside;
+}
+
+.ingredients {
+    border-bottom: .5px solid hsl(30, 10%, 34%);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.ingredients h2, .instructions h2, h2 {
+    padding-left: 60px;
+    padding-right: 60px;
+    color: hsl(14, 45%, 36%);
+    font-family: Young Serif, sans-serif;
+    font-weight: 400; 
+    font-size: 1.5rem;
+}
+
+.instructions {
+    border-bottom: .5px solid hsl(30, 10%, 34%);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+li {
+    font-family: Outfit, sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.font-hd1 {
+    padding-left: 0px;
+    padding-right: 60px;
+    font-family: Outfit, sans-serif;
+    font-size: 0.7rem;
+    color: hsl(30, 10%, 34%);
+   
+  }
+
+  .table-space1 {
+    padding-right: 165px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: hsl(14, 45%, 36%);
+  }
+
+  .table-space {
+    padding-right: 200px;
+    padding-left: 80px;
+    font-family: Outfit, sans-serif;
+    font-size: 0.7rem;
+    color: hsl(30, 10%, 34%);
+  }
+
+  tr {
+    border-bottom: solid 1px hsla(14, 45%, 36%, 0.205);
+    display: table-row;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .table {
+    border-collapse: collapse;
+  }
